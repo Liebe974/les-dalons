@@ -22,7 +22,7 @@ body {
     border: 1px solid black;
     border-radius: 10px;
     width: 400px;
-    background: linear-gradient(45deg,#0cc502,20%, #000000);
+    background-image: linear-gradient(to right bottom, #000000, #1f0f0d, #31190c, #3b2704, #3a3a00, #3a4b00, #315d00, #0e700a, #0e840a, #0e9909, #0daf06, #0cc502);
     color: #fff;
     text-align: center;
     font-size: 20px;
