@@ -10,7 +10,6 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 
 .user {
@@ -18,21 +17,20 @@ body {
     flex-direction: column;
     align-items: center;
     margin: 10px;
-    padding: 10px;
+    padding-top: 10px;
     border: 1px solid black;
     border-radius: 10px;
-    width: 300px;
+    width: 400px;
     background: linear-gradient(#AEFEAA, #F6FD84);
     color: #000;
     text-align: center;
     font-size: 20px;
+    > img {
+        width: 250px;
+        height: 170px;
+        border-radius: 15px;
+ 
 }
-
-.user img {
-    width: 200px;
-    height: 200px;
-    border-radius: 15px;
-    margin-bottom: 10px;
 }
 
 input {
