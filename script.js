@@ -21,8 +21,10 @@ function displayUsers() {
         div.innerHTML = `
         <img src="${user.picture.thumbnail}" alt="profile picture">
         <h3> ${user.name.title} ${user.name.first} ${user.name.last}</h3>   
-        <p>${user.gender.toUpperCase()}</p>
+        <p>${user.gender === "male" ? "<i class='bx bx-male-sign'></i>" : "<i class='bx bx-female-sign' ></i>"}</p>
         <p>${user.email}</p>
+
         `;
         container.appendChild(div);
     })};
+
