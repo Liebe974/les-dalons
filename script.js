@@ -20,7 +20,7 @@ function displayUsers() {
     const div = document.createElement("div");
     div.classList.add("user");
     div.innerHTML = `
-        <img src="${user.picture.thumbnail}" alt="profile picture">
+        <img src="${user.picture.large}" alt="profile picture">
         <h3> ${user.name.title} ${user.name.first} ${user.name.last}</h3>   
         <p>${user.email}</p>
         <p>${

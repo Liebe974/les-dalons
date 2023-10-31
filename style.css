@@ -28,8 +28,8 @@ body {
     font-size: 20px;
     > img {
         width: 250px;
-        height: 170px;
-        border-radius: 15px;
+        height: 250px;
+        border-radius: 50%;
  
 }
 }
@@ -47,12 +47,12 @@ i {
     position: absolute;
     top: 10px;
     left: 10px;
-    font-size: 32px;
+    font-size: 40px;
     &.bx-male-sign {
-        color:blue;
+        color:rgb(33, 33, 210);
     }
     &.bx-female-sign {
-        color: pink;
+        color: #ff00ff;
     }
 }
 
