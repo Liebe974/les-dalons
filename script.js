@@ -35,7 +35,7 @@ function displayUsers() {
   });
 }
 
-// Rechercher depuis combien de temps l'utisateur est inscrit
+// Calcul du nombre de jours depuis lequel l'utisateur est inscrit
 function calculateDaysRegistered(registrationDate) {
   const currentDate = new Date();
   const timeDifference = currentDate - registrationDate;

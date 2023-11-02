@@ -1,58 +1,70 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-    background-color: #000000;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #000000;
 }
 .container {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .user {
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    align-items: center;
-    margin: 10px;
-    padding-top: 10px;
-    border: 1px solid black;
-    border-radius: 10px;
-    width: 400px;
-    background-image: linear-gradient(to right bottom, #000000, #1f0f0d, #31190c, #3b2704, #3a3a00, #3a4b00, #315d00, #0e700a, #0e840a, #0e9909, #0daf06, #0cc502);
-    color: #fff;
-    text-align: center;
-    font-size: 20px;
-    > img {
-        width: 250px;
-        height: 250px;
-        border-radius: 50%;
- 
-}
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  padding-top: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 400px;
+  background-image: linear-gradient(
+    to right bottom,
+    #000000,
+    #1f0f0d,
+    #31190c,
+    #3b2704,
+    #3a3a00,
+    #3a4b00,
+    #315d00,
+    #0e700a,
+    #0e840a,
+    #0e9909,
+    #0daf06,
+    #0cc502
+  );
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  > img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+  }
 }
 
 input {
-    padding: 5px;
-    margin: 5px;
-    border-radius: 5px;
-    border: 1px solid black;
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
 }
 i {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    font-size: 40px;
-    & .bx-male-sign {
-        color:rgb(33, 33, 210);
-    }
-    & .bx-female-sign {
-        color: #ff00ff;
-    }
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 40px;
+  &.bx-male-sign {
+    color: rgb(33, 33, 210);
+  }
+  &.bx-female-sign {
+    color: #ff00ff;
+  }
 }
-
