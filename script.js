@@ -28,7 +28,7 @@ function displayUsers() {
             ? "<i class='bx bx-male-sign'></i>"
             : "<i class='bx bx-female-sign' ></i>"
         }</p>
-        <p>${daysRegistered} jours</p>
+        <p>Inscrit depuis ${daysRegistered} jours</p>
 
         `;
     container.appendChild(div);

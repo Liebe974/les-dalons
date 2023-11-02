@@ -48,10 +48,10 @@ i {
     top: 10px;
     left: 10px;
     font-size: 40px;
-    &.bx-male-sign {
+    & .bx-male-sign {
         color:rgb(33, 33, 210);
     }
-    &.bx-female-sign {
+    & .bx-female-sign {
         color: #ff00ff;
     }
 }
